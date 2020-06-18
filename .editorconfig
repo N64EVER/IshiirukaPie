@@ -15,6 +15,7 @@ indent_style = tab
 [.editorconfig]
 insert_final_newline = true
 
+[*.gradle]
 indent_size = 4
 indent_style = space
 insert_final_newline = false
