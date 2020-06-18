@@ -1,4 +1,4 @@
-# IshiirukaPie is a build of Ishiiruka that supports notches and holepunch displays.
+# IshiirukaPie is a build of Dolphin that supports notches and holepunch displays.
 
 Instead of cropping the image with a nasty black bar, Ishiiruka now tells Android to maximize the screen.
 
