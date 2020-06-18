@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DolphinBase" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Main theme colors -->
+        <!-- Branding color for the app bar -->
+        <item name="colorPrimary">@color/ishiiruka_red</item>
+        <!-- Darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/ishiiruka_red_dark</item>
+
+        <!-- Enable window content transitions -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+
+        <item name="android:colorControlHighlight">?attr/colorAccent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+
+    <style name="DolphinEmulationBase" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ishiiruka_red</item>
+        <item name="colorPrimaryDark">@color/ishiiruka_red_dark</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="android:windowBackground">@android:color/black</item>
+
+        <!-- Enable window content transitions -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>
