@@ -1,3 +1,8 @@
+# Notice 6/18/20 22:15
+
+v1.1 breaks ubershaders on OpenGL and Vulkan. Use specialized shaders, I won't find a fix for
+this. I don't know how to program advanced emulation functions :)
+
 # IshiirukaPie is a build of Dolphin that supports notches and holepunch displays.
 
 Instead of cropping the image with a nasty black bar, Ishiiruka now tells Android to maximize the screen.
